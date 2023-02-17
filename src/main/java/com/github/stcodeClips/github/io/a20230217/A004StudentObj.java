@@ -1,4 +1,4 @@
-package com.example.stcodeClips.github.io.a20230217;
+package com.github.stcodeClips.github.io.a20230217;
 
 /**
  * @author junw

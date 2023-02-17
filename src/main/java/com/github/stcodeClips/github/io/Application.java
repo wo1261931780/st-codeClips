@@ -1,9 +1,12 @@
-package com.example.stcodeClips.github.io;
+package com.github.stcodeClips.github.io;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
+/**
+ * @author junw
+ */
 @SpringBootApplication(exclude= DataSourceAutoConfiguration.class)
 public class Application {
 
