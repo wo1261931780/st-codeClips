@@ -1,4 +1,4 @@
-package com.github.stcodeClips.github.io.a20230217;
+package wo1261931780.stcodeClips.a20230217;
 
 import lombok.extern.slf4j.Slf4j;
 
