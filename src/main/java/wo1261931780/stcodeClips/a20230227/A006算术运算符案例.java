@@ -9,7 +9,7 @@ package wo1261931780.stcodeClips.a20230227;
  * @Date 2023-02-09-44  星期一
  * @description
  */
-public class A006测试 {
+public class A006算术运算符案例 {
 	public static void main(String[] args) {
 		// 算术运算符案例
 		int k = 3;
