@@ -1,6 +1,7 @@
 package wo1261931780.stcodeClips.a20230228;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Intellij IDEA.
@@ -21,7 +22,7 @@ public class A017集合索引越界 {
 		strings.add(1);
 		ArrayList<Integer> show2 = show(strings);
 		// System.out.println(show2);
-		// Arrays.toString(show(strings))
+		// Arrays.toString(show(strings)
 	}
 
 	public static ArrayList<Integer> show(ArrayList<Integer> x) {
