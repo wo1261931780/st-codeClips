@@ -16,14 +16,14 @@ public class A013面试题 {
 		// 二者得到的结果不同，因为一个是常量池，一个是堆内存的对象
 		String q = "aaa";
 		String q2 = "aaa";
-		System.out.println(q == q2);
+		System.out.println(q.equals(q2));
 		// 结果为true
 		System.out.println("******************");
 		char[] xx = {'a', 'b', '测', '试'};
 		byte[] x1 = {97, 98, 99, 65, 66};
 		String q3 = new String(x1);
 		String q4 = new String(x1);
-		System.out.println(q3 == q4);
+		System.out.println(q3.equals(q4));
 		// 结果为false
 	}
 

@@ -23,7 +23,7 @@ public class A014面试题 {
 		// 一个对象是常量池的，一个对象是堆内存的
 		String x2 = "aa";
 		// 这里默认会创建一个常量池的，但是常量池中已经有了，所以会默认使用已经创建的地址
-		System.out.println(x1 == x2);
+		System.out.println(x1.equals(x2));
 		// 结果为false
 		// 这里x1指向堆内存的地址，而x2指向常量池的地址
 	}
@@ -32,7 +32,7 @@ public class A014面试题 {
 		String x1 = "abc";// 常量池
 		String x2 = "ab";
 		String x3 = x2 + 'c';// 只要不是双引号直接给出，都放在堆内存
-		System.out.println(x1 == x3);
+		System.out.println(x1.equals(x3));
 		// 结果为false
 	}
 
@@ -42,7 +42,7 @@ public class A014面试题 {
 		// 上面的代码，编译阶段就已经完成，所以认为最终结果一样
 		// String x2 = 'a' + 'b' + 'c';//报错
 		// x2 += 'c';
-		System.out.println(x1 == x2);
+		System.out.println(x1.equals(x2));
 		// 结果为true
 	}
 }
