@@ -90,9 +90,9 @@ public class CustomRemoteDebugger {
 		MethodEntryRequest methodEntryRequest = requestManager.createMethodEntryRequest();
 		methodEntryRequest.enable();
 
-		BreakpointRequest breakpointRequest = requestManager.createBreakpointRequest(
-				requestManager.createMethodExitRequest().location());
-		breakpointRequest.enable();
+		// BreakpointRequest breakpointRequest = requestManager.createBreakpointRequest(
+		// 		requestManager.createMethodExitRequest().location());
+		// breakpointRequest.enable();
 	}
 
 	private static void processDebugEvents(EventQueue eventQueue) {
