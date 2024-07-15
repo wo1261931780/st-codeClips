@@ -303,7 +303,7 @@
 		<dependency>
 			<groupId>org.apache.dubbo</groupId>
 			<artifactId>dubbo</artifactId>
-			<version>3.2.13</version>
+			<version>3.2.14</version>
 		</dependency>
 		<!--zookeeper是一个为分布式应用提供一致性服务的软件，提供的功能包括：配置维护、域名服务、分布式同步、组服务等。-->
 		<!--没有配置，项目报错，启动失败-->
